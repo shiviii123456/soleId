@@ -26,7 +26,7 @@ html{
     z-index: 1000;
 }
 .left-navbar span{
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
     padding-left: 2.5rem;
@@ -42,7 +42,7 @@ html{
     text-transform: uppercase;
 }
 .center-navbar ul li a{
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bolder;
     letter-spacing: 2px;
     font-family: 'Raleway', sans-serif;
@@ -58,7 +58,7 @@ html{
    margin: 1rem;
    border: none;
    border-radius: 10px;
-   font-size: 18px;
+   font-size: 14px;
    letter-spacing: .2px;
    font-family: 'Raleway', sans-serif;
    background-color: white;

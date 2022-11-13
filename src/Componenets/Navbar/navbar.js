@@ -1,7 +1,9 @@
 import React from "react"
 import "./navbar.css"
+import Signup from "../Landing/Signup"
+import Login from "../Landing/Login"
 
-const Navbar = () => {
+const Navbar = (props) => {
     return (
         <React.Fragment>
         <header class="header-navbar">
@@ -16,8 +18,8 @@ const Navbar = () => {
                 </ul>
             </div>
             <div class="right-navbar">
-                    <button id="navbar-btn1" class="navbar-btn">LOGIN</button>
-                    <button id="navbar-btn2" class="navbar-btn">SIGNUP</button>
+                    <button id="navbar-btn1" class="navbar-btn" onClick={() =>  props.loginClick()}>LOGIN</button>
+                    <button id="navbar-btn2" class="navbar-btn" onClick={() =>  props.registerClick()} >SIGNUP</button>
             </div>
         </header>
         <div class="navbar-hr"></div>
